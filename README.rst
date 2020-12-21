@@ -6,7 +6,13 @@ Images
 Tools
 ---------------------------------------------------------------------------------
 
-`imagemagick`_
+Install `imagemagick`_:
+
+::
+
+	$ sudo apt-get install imagemagick
+
+
 
 Konversi antar format
 ---------------------------------------------------------------------------------
