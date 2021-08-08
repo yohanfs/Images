@@ -1,0 +1,19 @@
+#+startup: overview
+#+title: Images
+
+* Images
+** Tools
+
+[[https://imagemagick.org/script/convert.php][imagemagick]]
+
+** Konversi antar format
+
+:    $ magick convert rose.jpg rose.png
+
+** Reduce image size
+
+:    $ magick -resize 50% rose.png
+
+** Resize ke spesifik pixel
+
+:    $ magick convert -resize 750 rose.png

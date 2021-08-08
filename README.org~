@@ -1,0 +1,43 @@
+#+startup: overview
+#+title: Images
+
+* Images
+  :PROPERTIES:
+  :CUSTOM_ID: images
+  :END:
+
+*Daftar Isi*
+
+** Tools
+   :PROPERTIES:
+   :CUSTOM_ID: tools
+   :END:
+
+[[https://imagemagick.org/script/convert.php][imagemagick]]
+
+** Konversi antar format
+   :PROPERTIES:
+   :CUSTOM_ID: konversi-antar-format
+   :END:
+
+#+BEGIN_EXAMPLE
+    $ magick convert rose.jpg rose.png
+#+END_EXAMPLE
+
+** Reduce image size
+   :PROPERTIES:
+   :CUSTOM_ID: reduce-image-size
+   :END:
+
+#+BEGIN_EXAMPLE
+    $ magick -resize 50% rose.png
+#+END_EXAMPLE
+
+** Resize ke spesifik pixel
+   :PROPERTIES:
+   :CUSTOM_ID: resize-ke-spesifik-pixel
+   :END:
+
+#+BEGIN_EXAMPLE
+    $ magick convert -resize 750 rose.png
+#+END_EXAMPLE
