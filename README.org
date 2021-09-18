@@ -29,6 +29,6 @@ atau
 
 * Referensi
 
-[[https://low-orbit.net/arch-linux-jpg-to-png][low orbit flux]]
-[[https://www.tecmint.com/optimize-and-compress-jpeg-or-png-batch-images-linux-commandline/][how to optimize and compress jpeg or png images in linux commandline]]
+- [[https://low-orbit.net/arch-linux-jpg-to-png][low orbit flux]]
+- [[https://www.tecmint.com/optimize-and-compress-jpeg-or-png-batch-images-linux-commandline/][how to optimize and compress jpeg or png images in linux commandline]]
 
