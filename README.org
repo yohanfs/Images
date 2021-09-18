@@ -1,19 +1,34 @@
 #+startup: overview
 #+title: Images
 
-* Images
-** Tools
+* Tools
 
-[[https://imagemagick.org/script/convert.php][imagemagick]]
+- [[https://imagemagick.org/script/convert.php][imagemagick]]
+- jpegoptim
+- optipng     
 
-** Konversi antar format
+* Konversi antar format
 
-:    $ magick convert rose.jpg rose.png
+: magick convert rose.jpg rose.png
 
-** Reduce image size
+atau
 
-:    $ magick -resize 50% rose.png
+: mogrify -format jpg rose.png
 
-** Resize ke spesifik pixel
+* Reduce image size
 
-:    $ magick convert -resize 750 rose.png
+: magick -resize 50% rose.png
+
+: jpegoptim rose.jpeg
+
+: optipng rose.png
+
+* Resize ke spesifik pixel
+
+: magick convert -resize 750 rose.png
+
+* Referensi
+
+[[https://low-orbit.net/arch-linux-jpg-to-png][low orbit flux]]
+[[https://www.tecmint.com/optimize-and-compress-jpeg-or-png-batch-images-linux-commandline/][how to optimize and compress jpeg or png images in linux commandline]]
+
